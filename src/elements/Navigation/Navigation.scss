@@ -1,0 +1,50 @@
+@import'../../App.scss';
+
+.navBar {
+    background-color: white;
+    .title {
+        color: $pink-color;
+        font-size: 1.7vw;
+        font-weight: bold;
+        font-family: $caladea-font;
+        background-color: $main-bg-color;
+
+        &:hover {
+            color: $light-pink-color;
+            cursor: pointer;
+        }
+    }
+
+    .element {
+        text-align: center;
+        margin-top: 1.5%;
+        right: 0%;
+        position: absolute;
+
+        .items {
+            color: #0A1F32;
+            font-size: 0.9vw;
+            vertical-align: middle;
+            font-weight: bold;
+
+            &:hover {
+                color: $pink-color;
+                cursor: pointer;
+                text-shadow: 1px 1px grey;
+            }
+        }
+    }
+
+    .buttonSpec {
+        border-radius: 25px;
+        background-color: $pink-color;
+        color: #FFFFFF;
+        margin-top: 1.5%;
+        margin-left: 10%;
+        max-width: 150px;
+
+        &:hover {
+            box-shadow: 2px 2px grey;
+        }
+    }
+}

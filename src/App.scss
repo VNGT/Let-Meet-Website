@@ -1,0 +1,48 @@
+// Google Fonts
+@import url('https://fonts.googleapis.com/css?family=Caladea&display=swap');
+
+// Color Variables
+$navy-blue: #0A1F32;
+$pink-color: #F6598B;
+$light-pink-color: #F6B9CD;
+$main-bg-color: #FFFFFF;
+$card-bg-color: #F5F6F7;
+
+// Font variables
+$caladea-font: 'Caladea', sans-serif;
+
+.leftRightPadding {
+    margin: 0.5% 20% 0 20%;
+
+    .introView {
+        margin-top: 10%;
+
+        & #introMessage {
+            font-size: 2.0vw;
+            color: $navy-blue;
+            font-weight: bold;
+            font-family: $caladea-font;
+        }
+
+        & #sub_intro {
+            font-size: 1.3vw;
+            font-weight: 300;
+            color: #C3C3C3;
+            margin-top: 5%;
+        }
+
+        & #buttonSpec {
+            border-radius: 10px;
+            background-color: $pink-color;
+            color: #FFFFFF;
+            margin-top: 5%;
+            max-width: 150px;
+            height: 50px;
+            max-height: 50px;
+
+            &:hover {
+                box-shadow: 2px 2px grey;
+            }
+        }
+    }
+}
