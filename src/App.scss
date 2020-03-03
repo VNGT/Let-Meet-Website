@@ -12,37 +12,181 @@ $card-bg-color: #F5F6F7;
 $caladea-font: 'Caladea', sans-serif;
 
 .leftRightPadding {
-    margin: 0.5% 20% 0 20%;
+    margin: 0.5% 15% 0 15%;
+}
 
-    .introView {
-        margin-top: 10%;
+.introView {
+    margin-top: 5%;
+    & #introMessage {
+        font-size: 2.5vw;
+        color: $navy-blue;
+        font-weight: bold;
+        font-family: $caladea-font;
+    }
 
-        & #introMessage {
-            font-size: 2.0vw;
-            color: $navy-blue;
-            font-weight: bold;
+    & #sub_intro {
+        font-size: 1.5vw;
+        font-weight: 300;
+        color: #C3C3C3;
+        margin-top: 5%;
+    }
+
+    & #buttonSpec {
+        border-radius: 10px;
+        background-color: $pink-color;
+        color: #FFFFFF;
+        margin-top: 5%;
+        max-width: 150px;
+        height: 50px;
+        max-height: 50px;
+
+        &:hover {
+            box-shadow: 2px 2px grey;
+        }
+    }
+
+    .introImgSpec {
+        margin-left: -12%;
+        width: 170%;
+        max-width: 1250px;
+        height: 100%;
+        max-height: 800px;
+    }
+}
+
+.architectureView {
+    width: 100%;
+    background-color: $card-bg-color;
+    margin-top: -6%;
+    height: 100%;
+
+    .shiftTop {
+        margin-top: 12%;
+    }
+
+    .center {
+        margin: 0 auto;
+    }
+
+    .diagramSpec1 {
+        max-width: 750px;
+        max-height: 500px;
+        margin-top: 12%;
+        border-radius: 15px;
+    }
+
+    .diagramSpec {
+        margin-top: -30%;
+        margin-left: 3%;
+        max-width: 1200px;
+        max-height: 700px;
+    }
+
+    .cardView {
+        margin-top: 30%;
+        margin-bottom: 15%;
+        background-color: #FFFFFF;
+        box-shadow: 6px 2px $navy-blue;
+
+        .title {
+            margin: 0 auto;
             font-family: $caladea-font;
+            color: $pink-color;
+            font-size: 3.5vw;
+            margin-top: -3%;
         }
 
-        & #sub_intro {
-            font-size: 1.3vw;
-            font-weight: 300;
-            color: #C3C3C3;
-            margin-top: 5%;
-        }
+        .techStackView {
+            margin-top: 3.5%;
+            text-align: center;
 
-        & #buttonSpec {
-            border-radius: 10px;
-            background-color: $pink-color;
-            color: #FFFFFF;
-            margin-top: 5%;
-            max-width: 150px;
-            height: 50px;
-            max-height: 50px;
+            & #title {
+                font-family: $caladea-font;
+                margin-bottom: 2%;
+                h3 {
+                    font-size: 2vw;
+                }
 
-            &:hover {
-                box-shadow: 2px 2px grey;
+                & h3:hover {
+                    color: $pink-color;
+                }
             }
+
+            & #subtitle {
+                font-size: 1.2vw;
+                margin-top: 2%;
+            }
+        }
+    }
+}
+
+.uxView {
+    width: 100%;
+    background-color: $card-bg-color;
+    height: 100%;
+
+    h1 {
+        font-size: 3.5vw;
+        text-align: center;
+    }
+
+    .videoView {
+        background-color: $main-bg-color;
+        border-radius: 5px;
+        box-shadow: 2px 2px $pink-color;
+        margin-top: 4%;
+        margin-bottom: 15%;
+        height: 500px;
+        p {
+            text-align: center;
+            font-size: 1.5vw;
+        }
+    }
+}
+
+.membersView {
+    width: 100%;
+    background-color: $card-bg-color;
+    text-align: center;
+
+    .row {
+        width: 100%;
+        .styleColumn {
+            background-color: #0D283F;
+
+            h1, h2 {
+                color: #FFFFFF;
+            }
+
+        }
+
+        .roundCorner {
+            border-radius: 10px;
+        }
+
+        & #name {
+            font-size: 2.2vw;
+            font-weight: bold;
+            margin-top: 15%;
+            margin-bottom: 10%;
+        }
+
+        & #major {
+            margin-top: 10%;
+            font-size: 1,8vw;
+        }
+
+        & #year {
+            font-size: 1.8vw;
+            margin-bottom: 15%;
+        }
+
+        & #profilePic {
+            width: 100%;
+            max-width: 150px;
+            height: 100%;
+            max-height: 150px;
+            border-radius: 50%;
         }
     }
 }

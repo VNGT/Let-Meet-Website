@@ -5,25 +5,26 @@ import Architecture from './Architecture.js';
 import Descriptions from './Descriptions.js';
 import UserExperience from './UserExperience.js';
 import Contributors from './Contributors.js';
+import intro from '../../assets/intro.png';
 
 export default class Landing extends Component {
 
     Introduction = () => (
-        <Row className='introView'>
-            <Col sm={5}>
+        <Row className='introView leftRightPadding'>
+            <Col sm={5} style={{marginTop: '5%'}}>
                 <p id='introMessage'>Let's Meet give students everything they need to be success.</p>
                 <p id='sub_intro'>New friendly mobile app allow students to host or attend to any events.</p>
                 <button id='buttonSpec' type='button'>VIEW OUR DEMO</button>
             </Col>
             <Col sm={7}>
-                <p>ssssssss</p>
+                <img className='introImgSpec' src={intro} alt='intro view' />
             </Col>
         </Row>
     );
 
     render() {
         return (
-            <div className='leftRightPadding'>
+            <div style={{overflowX: 'hidden'}}>
                 <Navigation />
                 <this.Introduction />
                 <Architecture />
