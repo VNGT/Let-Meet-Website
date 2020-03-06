@@ -8,7 +8,7 @@ const Architecture = (props) => {
 
     const OverralArchitecture = () => (
         <Row>
-            <Fade bottom delay={1500}>
+            <Fade bottom delay={1000}>
                 <img className='shiftTop diagramSpec1 center' src={architecture} alt='Overral architecture of Let Meet'/>
             </Fade>
         </Row>
@@ -16,7 +16,7 @@ const Architecture = (props) => {
 
     const AWSArchitecture = () => (
         <div className='cardView leftRightPadding'>
-            <Fade bottom delay={300}>
+            <Fade bottom delay={100}>
                 <Row>
                     <img src={aws} alt='AWS Architecture' className='shiftTop diagramSpec center' />
                 </Row>
