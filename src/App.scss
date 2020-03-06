@@ -12,7 +12,7 @@ $card-bg-color: #F5F6F7;
 $caladea-font: 'Caladea', sans-serif;
 
 .leftRightPadding {
-    margin: 0.5% 15% 0 15%;
+    margin: 0% 15% 0 15%;
 }
 
 .introView {
@@ -47,8 +47,8 @@ $caladea-font: 'Caladea', sans-serif;
 
     .introImgSpec {
         margin-left: -12%;
-        width: 170%;
-        max-width: 1250px;
+        width: 150%;
+        max-width: 1050px;
         height: 100%;
         max-height: 800px;
     }
@@ -125,18 +125,13 @@ $caladea-font: 'Caladea', sans-serif;
     background-color: $card-bg-color;
     height: 100%;
 
-    h1 {
-        font-size: 3.5vw;
-        text-align: center;
-    }
-
     .videoView {
         background-color: $main-bg-color;
         border-radius: 5px;
         box-shadow: 2px 2px $pink-color;
         margin-top: 4%;
         margin-bottom: 15%;
-        height: 500px;
+        height: 600px;
         p {
             text-align: center;
             font-size: 1.5vw;
@@ -145,12 +140,13 @@ $caladea-font: 'Caladea', sans-serif;
 }
 
 .membersView {
-    width: 100%;
     background-color: $card-bg-color;
     text-align: center;
 
     .row {
         width: 100%;
+        margin-top: 4%;
+        margin-bottom: 0.5%;
         .styleColumn {
             background-color: #0D283F;
 
@@ -189,4 +185,9 @@ $caladea-font: 'Caladea', sans-serif;
             border-radius: 50%;
         }
     }
+}
+
+h1 {
+    font-size: 3.5vw;
+    text-align: center;
 }

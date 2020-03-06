@@ -3,23 +3,24 @@ import './Navigation.scss';
 import { Row, Col } from 'react-bootstrap';
 
 const Navigation = (props) => {
+
+    const changeDiv = (ref) => {
+        ref.current.scrollIntoView({ behavior: 'smooth' });
+    };
+
     return (
         <Row className='navBar leftRightPadding onePercent'>
             <Col className='title' md={2}>Let's Meet</Col>
             <Col md={10}>
                 <Row className='element'>
-                    <Col className='items'>SOLUTION</Col>
-                    <Col className='items'>ARCHITECTURE</Col>
-                    <Col className='items'>EXPERIENCE</Col>
-                    <Col className='items'>CONTRIBUTORS</Col>
+                    <Col onClick={()=>changeDiv(props.intro)} className='items'>SOLUTION</Col>
+                    <Col onClick={()=>changeDiv(props.arch)} className='items'>ARCHITECTURE</Col>
+                    <Col onClick={()=>changeDiv(props.userX)} className='items'>EXPERIENCE</Col>
+                    <Col onClick={()=>changeDiv(props.cont)} className='items'>CONTRIBUTORS</Col>
                 </Row>
             </Col>
         </Row>
     )
 };
-
-// <Col md={3}>
-//     <button className='buttonSpec' type='button'>VIEW OUR DEMO</button>
-// </Col>
 
 export default Navigation;
