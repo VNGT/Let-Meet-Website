@@ -20,8 +20,8 @@ export default class Landing extends Component {
     Introduction = () => (
         <Row ref={this.intro} className='introView leftRightPadding'>
             <Col sm={5} style={{marginTop: '5%'}}>
-                <p id='introMessage'>Let's Meet give students everything they need to be success.</p>
-                <p id='sub_intro'>New friendly mobile app allow students to host or attend to any events.</p>
+                <p id='introMessage'>Let's Meet helps students to be successful together.</p>
+                <p id='sub_intro'>New friendly mobile app allows students to easily host or join studying events. This solution aims to provide students a high performance application with modern and friendly user interface to effectively host and attend study sessions with each other, with the end goal to create a seamless experience and flexibility in both time and location when deciding on when and where to study.</p>
                 <button onClick={()=>window.open('https://sketch.cloud/s/k5dpr/a/vAwja3/play')} id='buttonSpec' type='button'>VIEW OUR DEMO</button>
             </Col>
             <Col sm={7}>
