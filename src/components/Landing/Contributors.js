@@ -20,13 +20,13 @@ const Contributors = (props) => {
                 </Col>
                 <Col className='styleColumn roundCorner' style={{marginLeft: 20}} sm={2}>
                     <h1 id='name'>Tuan Nguyen</h1>
-                    <img alt='Trai' id='profilePic' src='https://avatars3.githubusercontent.com/u/32973156?s=460&v=4'></img>
+                    <img alt='Tuan' id='profilePic' src='https://avatars3.githubusercontent.com/u/32973156?s=460&v=4'></img>
                     <h2 id='major'>Computer Science</h2>
                     <h2 id='year'>Senior</h2>
                 </Col>
                 <Col sm={2} className='roundCorner' style={{backgroundColor: '#FFFFFF', marginLeft: 20}}>
                     <h1 id='name'>Chau Phan</h1>
-                    <img alt='Mai' id='profilePic' src='https://media-exp1.licdn.com/dms/image/C4E03AQE_u2AtqVmdmA/profile-displayphoto-shrink_200_200/0?e=1588809600&v=beta&t=2dG7hQFeMUpNQX8eqrQltCAHpAbl_UQ1YukdZ3e1sps'></img>
+                    <img alt='Chau' id='profilePic' src='https://media-exp1.licdn.com/dms/image/C4E03AQE_u2AtqVmdmA/profile-displayphoto-shrink_200_200/0?e=1588809600&v=beta&t=2dG7hQFeMUpNQX8eqrQltCAHpAbl_UQ1YukdZ3e1sps'></img>
                     <h2 id='major'>Computer Science</h2>
                     <h2 id='year'>Senior</h2>
                 </Col>
